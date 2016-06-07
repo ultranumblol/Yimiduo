@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="84dp"
+            android:src="@drawable/head"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/id_user_head"
+            />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户2016"
+        android:textColor="@color/black"
+       android:layout_marginTop="36dp"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@id/id_user_head"
+        android:textSize="14dp"
+            android:id="@+id/id_user_username"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18311112222"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/gray3"
+            android:layout_below="@id/id_user_username"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@id/id_user_head"
+            android:textSize="14dp"
+            />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_mything_next_normal"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray4"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/address"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/id_user_addressIMG"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理常用地址"
+            android:textColor="@color/gray3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_user_addressIMG"
+            android:textSize="14dp"
+            />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_mything_next_normal"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/gray4"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/lianxikefu"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/id_user_lianxikefu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系客服"
+            android:textColor="@color/gray3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_user_lianxikefu"
+            android:textSize="14dp"
+            />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_mything_next_normal"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/gray4"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/about"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:id="@+id/id_user_aboutApp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于手艺人"
+            android:textColor="@color/gray3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/id_user_aboutApp"
+            android:textSize="14dp"
+            />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_mything_next_normal"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/gray4"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="退出登录"
+        android:textSize="16dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="24dp"
+        android:gravity="center"
+        android:background="@drawable/bgred_radius5"
+        android:layout_marginRight="24dp"
+        />
+</LinearLayout>

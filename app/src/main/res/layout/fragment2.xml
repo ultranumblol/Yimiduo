@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/orderBar1"
+            android:layout_weight="1"
+
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/daifukuan_normal"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/orderBar2"
+
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/daibaojia_normal"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/orderBar3"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/jingxingzhong_normal"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/orderBar4"
+            android:layout_weight="1"
+
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/daipingjia_normal"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/orderBar5"
+            android:layout_weight="1"
+
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/allorder_normal"
+            />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/gray4"
+        />
+    <com.example.qwerr.yimiduo.view.CustomViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/id_order_viewpager"
+        android:layout_height="match_parent"></com.example.qwerr.yimiduo.view.CustomViewPager>
+
+</LinearLayout>
