@@ -189,7 +189,7 @@
         android:layout_height="38dp"
         android:text="退出登录"
         android:textSize="14dp"
-        android:textColor="@color/red"
+        android:textColor="@color/gray5"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="24dp"
         android:gravity="center"

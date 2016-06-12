@@ -1,0 +1,19 @@
+package com.example.qwerr.yimiduo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class RegisetActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.regist);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        init();
+    }
+
+    private void init() {
+
+    }
+}
