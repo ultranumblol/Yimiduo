@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.qwerr.yimiduo.view.ReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务技能"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="42dp"
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="家具安装"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="家具维修保养"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="橱柜浴室柜安装"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="沙发维修保养"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="灯具电器安装"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="送货服务"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务区域"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="42dp"
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+
+            >
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="省/市/区县"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_mything_next_normal"
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="注册"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:background="@drawable/login__radius5"
+            android:layout_marginRight="40dp"
+            android:id="@+id/id_workerregist_finish"
+            />
+
+    </LinearLayout>
+
+
+</com.example.qwerr.yimiduo.view.ReboundScrollView>

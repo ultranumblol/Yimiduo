@@ -12,13 +12,14 @@ import android.widget.ImageView;
 
 import com.example.qwerr.yimiduo.LoginActivity;
 import com.example.qwerr.yimiduo.R;
+import com.example.qwerr.yimiduo.WorkerRegistActivity;
 
 /**
  * Created by qwerr on 2016/6/7.
  */
 
 public class Fragment1 extends Fragment {
-    private ImageView chuguianzhuang;
+    private ImageView chuguianzhuang,shafaweixiu;
 
     @Nullable
     @Override
@@ -30,6 +31,13 @@ public class Fragment1 extends Fragment {
 
     private void initView(View view) {
         chuguianzhuang = (ImageView) view.findViewById(R.id.id_frag1_chuguianzhuang);
+        shafaweixiu = (ImageView) view.findViewById(R.id.id_frag1_shafaweixiu);
+        shafaweixiu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), WorkerRegistActivity.class));
+            }
+        });
         chuguianzhuang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

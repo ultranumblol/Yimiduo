@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".FindPasswordActivity" />
-        <activity android:name=".RegisetActivity"></activity>
+        <activity android:name=".CustomRegisetActivity" />
+        <activity android:name=".WorkerRegistActivity" />
+        <activity android:name=".WorkerRegistActivity2"></activity>
     </application>
 
 </manifest>
