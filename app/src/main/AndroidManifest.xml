@@ -19,7 +19,13 @@
         <activity android:name=".FindPasswordActivity" />
         <activity android:name=".CustomRegisetActivity" />
         <activity android:name=".WorkerRegistActivity" />
-        <activity android:name=".WorkerRegistActivity2"></activity>
+        <activity android:name=".WorkerRegistActivity2" />
+        <activity android:name=".YuyueActivity" />
+        <activity android:name=".SjRegistActivity" />
+        <activity
+            android:name=".ShifuActivity"
+            android:label="@string/title_activity_shifu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

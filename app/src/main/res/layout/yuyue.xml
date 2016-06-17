@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.qwerr.yimiduo.view.ReboundScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="上门时间"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:hint="四川省成都市武侯区九江大道10号"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:hint="详细地址，如2幢3单元606"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="联系人"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:hint="您的姓名"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/editText3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男士"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女士"
+                />
+
+        </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="8dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="wrap_content"
+                android:hint="给师傅留言"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="上门时间"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="15"
+                android:layout_height="wrap_content"
+                android:hint="2016年5月14日  15:30     >"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="指定派单（选填）"
+                android:singleLine="true"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="15"
+                android:layout_height="wrap_content"
+                android:hint="请输入师傅工号/姓名"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="8dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="wrap_content"
+                android:text="备注"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="15"
+                android:layout_height="wrap_content"
+                android:hint="给师傅留言"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传需安装/维修照片，最多上传三张哦！"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/upimg"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="确认预约"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:background="@drawable/login__radius5"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="80dp"
+            />
+
+    </LinearLayout>
+
+
+</com.example.qwerr.yimiduo.view.ReboundScrollView>

@@ -8,22 +8,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
+
+        <EditText
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请选择用户类型"
+            android:layout_marginTop="20dp"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:orientation="horizontal"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
-            android:layout_marginTop="40dp"
+            android:background="@drawable/regist_sj_radius5_white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_marginTop="14dp"
+            android:paddingRight="5dp"
+
             >
             <EditText
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:hint="手机"
+                android:hint="名称"
                 android:layout_gravity="center_vertical"
                 android:gravity="center_vertical"
                 android:background="@color/white"
@@ -34,47 +45,65 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:orientation="horizontal"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
+            android:background="@drawable/regist_sj_radius5_white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
             android:layout_marginTop="14dp"
+            android:paddingRight="5dp"
             >
 
             <EditText
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:hint="验证码"
+                android:hint="手机号码"
                 android:layout_gravity="center_vertical"
                 android:gravity="center_vertical"
                 android:background="@color/white"
                 android:layout_marginLeft="10dp"
                 android:id="@+id/editText" />
             /
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="获取验证码"
-                android:layout_marginRight="5dp"
-                android:textSize="13sp"
-                android:layout_gravity="center_vertical"
-                android:textColor="@color/black"
-                />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
             android:orientation="horizontal"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
+            android:background="@drawable/regist_sj_radius5_white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
             android:layout_marginTop="14dp"
+            android:paddingRight="5dp"
+            >
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="电子邮箱"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/regist_sj_radius5_white"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_marginTop="14dp"
+            android:paddingRight="5dp"
             >
             <EditText
                 android:layout_width="0dp"
@@ -84,99 +113,37 @@
                 android:layout_gravity="center_vertical"
                 android:gravity="center_vertical"
                 android:background="@color/white"
-                android:layout_marginLeft="10dp"
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
-            android:orientation="horizontal"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
-            android:layout_marginTop="14dp"
-            >
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:hint="确认密码"
-                android:layout_gravity="center_vertical"
-                android:gravity="center_vertical"
-                android:background="@color/white"
 
                 android:layout_marginLeft="10dp"
                 />
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
-            android:orientation="horizontal"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
-            android:layout_marginTop="14dp"
-            >
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:hint="身份证号码"
-                android:layout_gravity="center_vertical"
-                android:gravity="center_vertical"
-                android:background="@color/white"
-                android:layout_marginLeft="10dp"
-                />
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"
-            android:orientation="vertical"
-            android:background="@color/white"
-            android:paddingBottom="5dp"
-            android:paddingTop="5dp"
-            android:layout_marginTop="14dp"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="请上传身份证正反面照片和操作证照片"
-                android:layout_marginLeft="10dp"
 
-                />
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_margin="10dp"
-                android:src="@drawable/upimg"
-                />
-
-        </LinearLayout>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:text="下一步"
+            android:text="注册"
             android:textSize="15dp"
             android:textColor="@color/white"
             android:layout_marginTop="28dp"
             android:layout_marginLeft="30dp"
             android:gravity="center"
-            android:background="@drawable/login__radius5"
+            android:background="@drawable/regist_sj_radius5"
             android:layout_marginRight="30dp"
             android:id="@+id/id_workerregist1_next"
             />
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="一经创建手艺人账户即表示您同意我们的
+条款和条件以及隐私政策"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    />
     </LinearLayout>
 
 

@@ -40,13 +40,15 @@
                 android:layout_weight="1"
                 android:layout_height="80dp"
                 android:src="@drawable/jiaju"
+                android:id="@+id/id_frag1_jiajuanzhuang"
                 />
+
             <ImageView
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="80dp"
                 android:src="@drawable/dianqi"
-                />
+                android:id="@+id/id_frag1_diannaoanzhuang" />
 
 
         </LinearLayout>
@@ -109,6 +111,7 @@
                 android:layout_weight="1"
                 android:layout_height="80dp"
                 android:src="@drawable/yuyue"
+                android:id="@+id/id_frag1_yuyuesonghuo"
                 />
             <ImageView
                 android:layout_width="0dp"
